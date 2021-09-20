@@ -1,0 +1,370 @@
+/*----------------------------------------*/
+/*  Theme default CSS
+/*----------------------------------------*/
+
+.container {
+  width: 100%;
+  max-width: 960px;
+}
+
+#ebay {
+  max-width: 100%;
+  margin: 0 auto;
+  font-family: 'Poppins', sans-serif;
+  color: #b7b7b7;
+  background: #262b32;
+}
+
+a:focus {
+  outline: 0px solid;
+}
+
+img {
+  max-width: 100%;
+  height:auto;
+}
+
+p {
+  margin: 0 0 15px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 10px;
+}
+
+a {
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+  color: #f0f0f0;
+}
+
+a:hover {
+  color: #f45c5d;
+  text-decoration: none;
+}
+
+a:active, a:hover {
+  outline: 0 none;
+}
+
+ul {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+
+hr {
+  border-top: 1px solid #31363e;
+}
+
+.clear {
+  clear: both;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+.white {
+  color: #ffffff !important;
+}
+
+.red {
+  color: #f45c5d !important;
+}
+
+.margin-top-30 {
+  margin-top: 30px !important;
+}
+
+.margin-bottom-30 {
+  margin-bottom: 30px !important;
+}
+
+.space-30 {
+  height: 30px;
+}
+
+img.logo {
+  max-width: 200px;
+}
+
+.header-phone {
+  background: rgba(0, 0, 0, 0) url("https://lothianautoparts.uk/img/hotline-dark.png") no-repeat scroll left center;
+  color: #b7b7b7;
+  float: right;
+  font-size: 12px;
+  min-height: 40px;
+  padding-left: 60px;
+  padding-top: 0;
+}
+.header-phone p {
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  .logo-area {
+    text-align: center;
+  }
+
+  .logo {
+    margin: 0 auto;
+  }
+
+  .user-cart-phone {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .top-cart-contain {
+    display: inline-block;
+    float: none;
+    margin-left: 0;
+    margin-right: 30px;
+  }
+
+  .header-phone {
+    display: inline-block;
+    float: none;
+  }
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .logo-area {
+    text-align: center;
+  }
+
+  .logo {
+    margin: 0 auto;
+  }
+
+  .user-cart-phone {
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  .top-cart-contain,.header-phone {
+    display: inline-block;
+    float: none;
+  }
+
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+ 
+  .header-phone {
+    display: inline-block;
+    float: none;
+  }
+  .user-cart-phone {
+    margin: 20px 0;
+    text-align: center;
+  }
+
+  .logo-area {
+    text-align: center;
+  }
+
+  .logo {
+    margin: 0 auto;
+  }
+ 
+  img.audi {
+    position: relative;
+    top: 3px;
+  }
+ 
+}
+
+#ebay .carousel {
+  display: inline-block;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;  /* to center the radio buttons */
+  padding: 30px;
+}
+
+#ebay .carousel-list {
+  white-space: nowrap;
+  padding: 0;
+  margin: 0;
+  border: none;
+  transition: transform .3s;
+}
+
+#ebay .carousel-list li {
+  white-space: normal; /* reset */
+  display: inline-block;
+  width: 25%;
+  box-sizing: border-box;
+  padding-right: 10px; /* to create the gap between the images */
+}
+
+#ebay .carousel-list img {
+  width: 100%; /* fit the container */
+  max-height: 200px;
+  vertical-align: bottom;
+}
+
+#ebay .carousel input {
+  display: none;
+}
+
+#ebay .carousel input:nth-child(1):checked ~ ul {
+  transform: translateX(0);
+}
+
+#ebay .carousel input:nth-child(2):checked ~ ul {
+  transform: translateX(-25%);
+}
+
+#ebay .carousel input:nth-child(3):checked ~ ul {
+  transform: translateX(-50%);
+}
+
+#ebay .carousel input:nth-child(4):checked ~ ul {
+  transform: translateX(-75%);
+}
+
+#ebay .carousel input:nth-child(5):checked ~ ul {
+  transform: translateX(-100%);
+}
+
+#ebay .carousel input:nth-child(6):checked ~ ul {
+  transform: translateX(-125%);
+}
+
+#ebay .carousel input:nth-child(7):checked ~ ul {
+  transform: translateX(-150%);
+}
+
+#ebay .arrow {
+  background: #f45c5d;
+  color: #ffffff;
+  opacity: 0.8;
+  font-size: 24px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 1;
+  top: 100px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#ebay .arrow > i {
+  position: relative;
+  top: 12px;
+  left: 1px;
+}
+
+#ebay .arrow:hover {
+  opacity: 1;
+}
+
+#ebay .arrow.left {
+  left: 20px;
+}
+
+#ebay .arrow.right {
+  right: 20px;
+}
+
+.f-16 {
+	font-size:  16px;
+}
+
+.f-22 {
+	font-size:  22px;
+}
+
+/* */
+
+.jssorb03 {
+    position: absolute;
+  }
+  .jssorb03 div, .jssorb03 div:hover, .jssorb03 .av {
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    text-align: center;
+    line-height: 21px;
+    color: #262b32;
+    font-size: 12px;
+    background: #ffffff;
+    overflow: hidden;
+    cursor: pointer;
+
+    transition: background .25s ease-in-out;
+   -moz-transition: background .25s ease-in-out;
+   -webkit-transition: background .25s ease-in-out;
+  }
+
+  .jssorb03 div:hover, .jssorb03 .av:hover { 
+    background: #f45c5d;
+    color: #ffffff;
+  }
+        
+  .jssora03l, .jssora03r {
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+    background: #f45c5d;
+    color: #ffffff;
+    overflow: hidden;
+    text-align: center;
+    font-size: 36px;
+    padding-top: 9px;
+    opacity: 0.6;
+
+    transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+  }
+
+  .jssora03l {
+    left:8px;
+  }
+
+  .jssora03r {
+    right:8px;
+  }
+        
+  .jssora03l:hover,
+  .jssora03r:hover {
+    opacity: 1;
+  }
+
+  .ebay-slides {
+    cursor: default;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 809px;
+    height: 150px;
+    overflow: hidden;
+  }
+
+  #jssor_1 {
+    position: relative;
+    margin: 0 auto;
+    top: 0px;
+    left: 0px;
+    width: 809px;
+    height: 150px;
+    overflow: hidden;
+    visibility: hidden;
+  }
