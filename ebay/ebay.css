@@ -281,11 +281,20 @@ img.logo {
 }
 
 .f-16 {
-	font-size:  16px;
+	font-size: 16px;
 }
 
 .f-22 {
-	font-size:  22px;
+	font-size: 22px;
+}
+
+.py-5 {
+	padding: 5px 0;
+}
+
+.w-130 {
+	display: inline-block;
+	width: 130px;
 }
 
 /* */
