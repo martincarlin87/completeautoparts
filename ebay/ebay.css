@@ -73,6 +73,10 @@ hr {
   color: #f45c5d !important;
 }
 
+.orange {
+	color: #FF7F50;
+}
+
 .margin-top-30 {
   margin-top: 30px !important;
 }
@@ -292,7 +296,7 @@ img.logo {
 	padding: 5px 0;
 }
 
-.w-130 {
+.w-170 {
 	display: inline-block;
 	width: 130px;
 }
