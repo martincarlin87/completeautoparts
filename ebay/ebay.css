@@ -145,13 +145,12 @@ hr {
     margin: 0 auto;
   }
 }
-
  
 /* small mobile :320px. */
 @media (max-width: 767px) {
 
   .logo {
-    margin: 0 auto;
+    height: 24px;
   }
  
 }
