@@ -152,5 +152,13 @@ hr {
   .logo {
     height: 24px !important;
   }
+
+  .f-22 {
+  	font-size: 16px !important;
+  }
+
+  .w-170 {
+  	width: 130px !important;
+  }
  
 }
