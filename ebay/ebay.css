@@ -26,6 +26,7 @@
     object-fit: cover;
     height: 200px;
     object-position: center 65%;
+    border-radius: 4px;
 }
 
 .container-fluid img.logo {
